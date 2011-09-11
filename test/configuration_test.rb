@@ -12,7 +12,6 @@ class ConfigurationTest < Test::Unit::TestCase
   test "correctly feed topics" do
     topic = Rotation::Configuration.fetch("cool_topic")
     assert_equal "cool_topic", topic.name
-    assert_equal "week", topic.unit
     assert_equal 2, topic.duration
     assert_equal Date.new(2011, 9, 13), topic.start_date
     assert_equal "one", topic.first
