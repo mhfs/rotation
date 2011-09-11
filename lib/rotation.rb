@@ -1,5 +1,6 @@
 require "rotation/version"
+require "rotation/configuration"
+require "rotation/topic"
 
 module Rotation
-  # Your code goes here...
 end
