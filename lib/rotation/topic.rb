@@ -16,7 +16,7 @@ module Rotation
 
     def responsible_index(date)
       unit_delta = week_delta(start_date, date)
-      (cycle(unit_delta) % candidates.size) + candidates.index(first)
+      (cycle(unit_delta) + candidates.index(first)) % candidates.size
     end
 
     def cycle(unit_delta)
