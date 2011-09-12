@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Marcelo Silveira"]
   s.email       = ["marcelo@mhfs.com.br"]
   s.homepage    = "https://github.com/mhfs/rotation/"
-  s.summary     = %q{A quick way to control rotation of stuff over time}
+  s.summary     = %q{Command line utility to help you control rotation of stuff over time}
   s.description = %q{Rotation is a quick utility to help you rotate any kind of stuff over time. I created it to control code review rotation among the team members.}
 
   s.rubyforge_project = "rotation"
