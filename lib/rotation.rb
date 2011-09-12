@@ -1,3 +1,6 @@
+require "date"
+require "yaml"
+
 module Rotation
   autoload :Version,       "rotation/version"
   autoload :Configuration, "rotation/configuration"
